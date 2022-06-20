@@ -1,0 +1,63 @@
+body {
+    background-color:grey;
+    text-align: center;
+}
+
+#convert {
+    width: 93%;
+    display: block;
+    margin: 25px auto;
+    height: 50px;
+    padding: 10px 0;
+    border-radius: 0;
+    background-color:orchid;
+    font-size: 18px;
+    color: white;
+    border-color: blueviolet;
+}
+
+#hex-color {
+    text-align: center;
+    color: blueviolet;
+}
+
+#rgb-color {
+    text-align: center;
+    color: blueviolet;
+}
+
+#hex2rgb {
+    background-color: white;
+    width: 450px;
+    min-height: 400px;
+    margin: 50px auto;
+    color: purple;
+    display: flex;
+    flex-direction: column;
+    border-color: purple;
+}
+
+
+#hex2rgb h4 {
+	text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+form {
+    margin: 30px 0;
+}
+
+form label {
+  margin: 0 0 15px 15px;
+  display: block;
+}
+
+form input {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid purple;
+}
+
